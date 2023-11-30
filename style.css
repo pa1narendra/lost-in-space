@@ -12,11 +12,11 @@ body{
     background-image: url(images/bg1.jpg);
     background-size: cover;
 }
-.navbar{
+nav{
     width: 100vw;
     height: 4rem;
     position: fixed;
-    top: 1rem;
+    top: 0rem;
     z-index: 3;
  }
  .navcontainer{
@@ -41,7 +41,11 @@ body{
     font-weight: 400;
     color: #0f0;
  }
+ .window-scroll{
+   background: #000;
+}
  h1{
+    padding: 20px;
     font-size: 3rem;
     font-family: 'Playpen Sans', cursive;
     color:#34d714;
@@ -57,6 +61,7 @@ body{
  }
  p{
     color: #fff;
+    font-size: 16px;
     line-height: 1.6;
  }
  .btn{
@@ -74,4 +79,25 @@ body{
     background: transparent;
     color: #fff;
     border-color: #fff;
+}
+footer{
+   background: #6a6c64;
+   padding-top: 5rem;
+}
+footer img{
+   height: 60px;
+}
+.footcontain{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 5rem;
+}
+.footcontain > div h4{
+   margin-bottom: 1.4rem;
+}
+.footer1 P{
+   margin :0 0 2rem;
+}
+.footer ul li{
+   margin-bottom: 0.7rem;
 }
